@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+
+body  {
+	font: 14px MgOpenModernaRegular, Andale Mono;
+	line-height: 20px;
+	padding: 0;
+	text-align: left;
+	width: 960px;	
+	background: url('./background.png') no-repeat;
+}
+
+#footer {
+	padding-top: 60px;
+}
+
+#container {
+	width: 720px;
+	margin: 60px 120px;
+}
+
+#left {
+	width: 330px;
+	margin-right: 60px;
+}
+
+
+#menu {
+	width: 450px;
+	margin-right: 60px;
+}
+
+#social {
+	width: 210px;
+	padding-top:10px;
+	display: inline;
+	float: right;
+}
+
+#right {
+	width: 330px;
+}
+
+.half {
+	width: 330px;
+}
+
+.full {
+	width: 720px;
+}
+
+p, div {
+	margin:0;
+	padding:0;
+}
+
+.center, .response {
+	text-align: center;
+}
+
+.highlight, .heading {
+	font: 36px InneractRegular;
+	line-height: 44px;
+	text-align: center;
+}
+
+.heading {
+	padding-bottom: 30px;
+}
+
+
+ul { 
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-weight:normal;
+}
+
+table {
+		font: 13px MgOpenModernaRegular, Andale Mono;
+}
+ 
+li { /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+	list-style-type: none;
+	padding-right: 30px;
+	display:inline;	
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ABABAB;
+}
+
+img {
+	margin: 0px;
+	padding: 0 0 10px 0;
+	border: none;
+}
+
+
+.title {
+	padding: 0;
+	width: 220px;
+}
+
+.download {
+	padding: 0;
+	float: right;
+	width: 180px;
+}
+
+.twitter-share-button {
+	float: right;
+	border:none;
+	overflow:hidden;
+	height: 31px;
+	width: 100px;
+	display: inline;
+}
+
+.facebook-share-button {
+	float: right;
+	border:none;
+	overflow:hidden;
+	width: 90px;
+	height: 21px;
+	display: inline;
+}
+
+.section {
+	width: 720px;
+	float: left;
+	padding: 0 0 60px 0;
+}
+
+fieldset {
+	border: none;
+}
+
+.mc-field-group {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.okbutton {
+	background:url(../okbutton.png) no-repeat;
+	cursor:pointer;
+	width: 41px;
+	height: 25px;
+	border: none;
+	margin-left: 5px;
+	
+}
+
+@font-face {
+    font-family: 'MgOpenModernaRegular';
+    src: url('mgopenmodernaregular-webfont.eot');
+    src: url('mgopenmodernaregular-webfont.eot?iefix') format('eot'),
+         url('mgopenmodernaregular-webfont.woff') format('woff'),
+         url('mgopenmodernaregular-webfont.ttf') format('truetype'),
+         url('mgopenmodernaregular-webfont.svg#webfontfgk4S9Xb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'InneractRegular';
+    src: url('inneract-webfont.eot');
+    src: url('inneract-webfont.eot?#iefix') format('eot'),
+         url('inneract-webfont.woff') format('woff'),
+         url('inneract-webfont.ttf') format('truetype'),
+         url('inneract-webfont.svg#webfontslAml7Hw') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

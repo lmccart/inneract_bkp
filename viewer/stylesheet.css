@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+html { height: 100% }
+body { 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px;
+	font: 12px MgOpenModernaRegular, Andale Mono;
+}
+
+
+p {	
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	color: white;
+}
+
+#map_canvas { height: 100% }
+
+#map_title {
+	position: absolute;
+	z-index: 10;
+	padding: 20px 0 0 20px;
+	width: 175px;
+}
+
+@font-face {
+    font-family: 'MgOpenModernaRegular';
+    src: url('../mgopenmodernaregular-webfont.eot');
+    src: url('../mgopenmodernaregular-webfont.eot?iefix') format('eot'),
+         url('../mgopenmodernaregular-webfont.woff') format('woff'),
+         url('../mgopenmodernaregular-webfont.ttf') format('truetype'),
+         url('../mgopenmodernaregular-webfont.svg#webfontfgk4S9Xb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
